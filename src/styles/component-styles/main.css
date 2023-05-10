@@ -1,0 +1,19 @@
+@import url("../variables.css");
+
+.main-component{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: var(--color-main);
+}
+.main-content{
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 87%;
+    height: 99%;
+    background-color: var(--color-white);
+}
